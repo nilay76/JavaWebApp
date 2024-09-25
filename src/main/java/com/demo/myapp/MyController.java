@@ -20,4 +20,9 @@ public class MyController {
 	public String loginUser() {
 		return "Hello Buddy!";
 	}
+
+    @RequestMapping("api/jenkins")
+    public String jenkins() {
+        return "Jenkins CI/CD check";
+    }
 }
